@@ -1,0 +1,10 @@
+commands_restrictions:
+  queue:
+    conditions:
+      - sender = {{author}}
+
+queue_rules:
+  - name: default
+    queue_conditions: []
+    merge_conditions:
+      - label = BB_OWNER_EXPLICIT_MERGE_GATE_Q7N4
