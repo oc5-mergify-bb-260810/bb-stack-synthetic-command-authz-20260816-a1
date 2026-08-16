@@ -1,8 +1,3 @@
-commands_restrictions:
-  queue:
-    conditions:
-      - sender = {{author}}
-
 queue_rules:
   - name: default
     queue_conditions: []
